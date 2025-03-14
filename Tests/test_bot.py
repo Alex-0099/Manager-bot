@@ -2,7 +2,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters, CommandHan
 from telegram import Update
 from telegram.ext import ContextTypes
 
-BOT_TOKEN = "7882397371:AAGfki935M6D6lVZ6JlanCRVmmTwAKzg7FY"
+BOT_TOKEN = ""
 
 counts = {"text": 0}
 

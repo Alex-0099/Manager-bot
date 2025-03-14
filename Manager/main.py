@@ -1,6 +1,6 @@
 # Manager/main.py
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters
-from Manager.config import BOT_TOKEN
+from Manager.bot_token import BOT_TOKEN
 from Manager.callbacks import forward_file, edited_message_handler, increment_stats
 from Manager.commands import start_command, count_command
 from Manager.custom_filters import edited_message_filter, non_edited_message_filter

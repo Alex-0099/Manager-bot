@@ -3,7 +3,7 @@ import asyncio
 import re
 from telegram import Update, InputMediaPhoto, InputMediaVideo
 from telegram.ext import ContextTypes
-from Manager.config import FORWARDING_RULES
+from Manager.rules import FORWARDING_RULES
 from Manager.stats import get_stats
 
 # Caches to track media groups and their forwarded message IDs.
